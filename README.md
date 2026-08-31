@@ -28,4 +28,4 @@ With over 2 years of hands-on experience building production-grade mobile applic
 ## 📬 Contact
 - **Email:** raman_joshi@outlook.com
 - **LinkedIn:** [linkedin.com/in/raman-joshi1/](https://www.linkedin.com/in/raman-joshi1/)
-- **Google Play:** [Play Store Developer Profile](https://play.google.com/store/apps/developer?id=Raman+Joshi)
+- **Google Play:** [Play Store Developer Profile](https://play.google.com/store/apps/dev?id=5978906835299875855)

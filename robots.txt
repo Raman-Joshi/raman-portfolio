@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# AI Bot Directives to explicitly encourage crawling of your portfolio
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Omgili
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+Sitemap: https://ramanjoshi.com/sitemap.xml

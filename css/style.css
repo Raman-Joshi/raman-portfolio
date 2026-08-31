@@ -1232,7 +1232,7 @@ label.error {
 /* 4.1 Slide Intro */
 /* 
 .slide-personal-intro {
-  background-image: url("../img/bg-personal-intro.png");
+  background-image: url("../img/bg-personal-intro.webp");
   background-size: cover;
 } */
 
@@ -1261,14 +1261,14 @@ label.error {
 }
 
 .slide-intro-man {
-  background-image: url("../img/bg-personal-intro-man.png");
+  background-image: url("../img/bg-personal-intro-man.webp");
   background-position: 50% 50%;
 }
 
 .slide-intro-man2 {
   width: 36.82291667%;
   height: 91.01851852%;
-  background-image: url("../img/bg-personal-intro-man2.png");
+  background-image: url("../img/bg-personal-intro-man2.webp");
   background-size: contain;
   background-position: 0 100%;
   bottom: 0;
@@ -1500,7 +1500,7 @@ label.error {
 /* 4.4 Slide Awards */
 
 .slide-personal-awards .slide-bg {
-  background-image: url("../img/bg-personal-awards.png");
+  background-image: url("../img/bg-personal-awards.webp");
 }
 
 .slide-awards-circle1 {
@@ -1575,7 +1575,7 @@ label.error {
 .slide-experience-image1 {
   width: 15.5rem;
   height: 15.5rem;
-  background-image: url("../img/bg-personal-experience-glasses.png");
+  background-image: url("../img/bg-personal-experience-glasses.webp");
   background-size: contain;
   position: absolute;
   top: 7.5% !important;
@@ -1587,7 +1587,7 @@ label.error {
 .slide-experience-image2 {
   width: 41.3125rem;
   height: 31.25rem;
-  background-image: url("../img/bg-personal-experience-device.png");
+  background-image: url("../img/bg-personal-experience-device.webp");
   background-size: contain;
   position: absolute;
   top: 81.94444444% !important;
@@ -1599,7 +1599,7 @@ label.error {
 .slide-experience-image3 {
   width: 42.875rem;
   height: 39.4375rem;
-  background-image: url("../img/bg-personal-experience-briefcase.png");
+  background-image: url("../img/bg-personal-experience-briefcase.webp");
   background-size: contain;
   position: absolute;
   top: 27% !important;
@@ -1675,7 +1675,7 @@ label.error {
 /* 4.6 Slide Clients */
 
 .slide-personal-clients .slide-bg {
-  background-image: url("../img/bg-personal-clients.png");
+  background-image: url("../img/bg-personal-clients.webp");
 }
 
 .slide-personal-clients .slide-title-info {
@@ -1698,7 +1698,7 @@ label.error {
   vertical-align: top;
   width: 3.75rem;
   height: 3.75rem;
-  background-image: url("../img/icon-partners.png");
+  background-image: url("../img/icon-partners.webp");
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1709,7 +1709,7 @@ label.error {
   vertical-align: top;
   width: 3.75rem;
   height: 3.75rem;
-  background-image: url("../img/icon-project.png");
+  background-image: url("../img/icon-project.webp");
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1720,7 +1720,7 @@ label.error {
   vertical-align: top;
   width: 3.75rem;
   height: 3.75rem;
-  background-image: url("../img/icon-worldwide.png");
+  background-image: url("../img/icon-worldwide.webp");
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1757,6 +1757,12 @@ label.error {
 .clients-photo .clients-photo-item {
   position: absolute;
   width: 14.56140351%;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+}
+
+.clients-photo .clients-photo-item:hover {
+  transform: scale(1.1);
+  z-index: 10;
 }
 
 .clients-photo-item > .inside {
@@ -1780,9 +1786,9 @@ label.error {
 }
 
 .clients-photo .clients-photo-item1 {
-  width: 19.29824561%;
-  top: 43.05084746%;
-  left: 6.31578947%;
+  width: 15%;
+  top: 8.50%;
+  left: 42.50%;
 }
 .slide-personal-awards .slide-title {
   font-size: 51px;
@@ -1795,13 +1801,15 @@ label.error {
 }
 
 .clients-photo .clients-photo-item2 {
-  top: 0%;
-  left: 57.54385965%;
+  width: 14%;
+  top: 26.00%;
+  left: 72.44%;
 }
 
 .clients-photo .clients-photo-item3 {
-  top: 48.81355932%;
-  right: 0;
+  width: 16%;
+  top: 59.00%;
+  left: 71.44%;
 }
 
 .clients-photo-item3 img {
@@ -1809,32 +1817,81 @@ label.error {
 }
 
 .clients-photo .clients-photo-item4 {
-  top: 11.52542373%;
-  left: 11.57894737%;
+  width: 14%;
+  top: 77.00%;
+  left: 43.00%;
 }
 
 .clients-photo .clients-photo-item5 {
-  width: 31.92982456%;
-  bottom: 0;
-  right: 3.50877193%;
+  width: 15%;
+  top: 59.50%;
+  left: 13.06%;
 }
 
 .clients-photo .clients-photo-item6 {
-  width: 17.54385965%;
-  bottom: 6.10169492%;
-  left: 31.57894737%;
+  width: 14%;
+  top: 26.00%;
+  left: 13.56%;
 }
 
 .clients-photo .clients-photo-item7 {
-  width: 49.12280702%;
-  top: 23.05084746%;
-  left: 31.92982456%;
+  width: 44%;
+  top: 28%;
+  left: 28%;
 }
 
 .clients-photo .clients-photo-item8 {
-  width: 12.28070175%;
-  top: 73.55932203%;
-  left: 6.31578947%;
+  width: 12%;
+  top: -0.17%;
+  left: 60.07%;
+}
+
+.clients-photo .clients-photo-item9 {
+  width: 11%;
+  top: 21.00%;
+  left: 85.20%;
+}
+
+.clients-photo .clients-photo-item10 {
+  width: 13%;
+  top: 51.66%;
+  left: 89.79%;
+}
+
+.clients-photo .clients-photo-item11 {
+  width: 11%;
+  top: 80.50%;
+  left: 74.71%;
+}
+
+.clients-photo .clients-photo-item12 {
+  width: 12%;
+  top: 91.00%;
+  left: 44.00%;
+}
+
+.clients-photo .clients-photo-item13 {
+  width: 13%;
+  top: 79.50%;
+  left: 13.29%;
+}
+
+.clients-photo .clients-photo-item14 {
+  width: 11%;
+  top: 52.66%;
+  left: -1.79%;
+}
+
+.clients-photo .clients-photo-item15 {
+  width: 12%;
+  top: 20.50%;
+  left: 3.30%;
+}
+
+.clients-photo .clients-photo-item16 {
+  width: 11%;
+  top: 0.33%;
+  left: 28.43%;
 }
 
 /* 4.7 Slide Testimonials */
@@ -1862,7 +1919,7 @@ label.error {
 }
 
 .slide-personal-testimonials .slide-bg {
-  background-image: url("../img/bg-personal-testimonials.png");
+  background-image: url("../img/bg-personal-testimonials.webp");
 }
 
 .testimonials-item-avatar-container {

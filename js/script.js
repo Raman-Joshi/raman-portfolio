@@ -193,11 +193,15 @@
 				submitHandler: function (form) {
 					$.ajax({
 						type: 'POST',
-						url: 'handler.php',
+						url: thisForm.attr('action') || 'handler.php',
 						data: new FormData(form),
 						cache: false,
 						contentType: false, // Not to set any content header
 						processData: false, // Not to process data
+						dataType: 'json',
+						headers: {
+							'Accept': 'application/json'
+						},
 						success: function () {
 							succMessage.show();
 						},
