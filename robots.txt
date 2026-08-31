@@ -23,4 +23,4 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-Sitemap: https://ramanjoshi.com/sitemap.xml
+Sitemap: https://ramanjoshi.dev/sitemap.xml

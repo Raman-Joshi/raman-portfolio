@@ -74,3 +74,7 @@ node_modules/
 # Sensitive / Large
 *.zip
 *.p8
+
+# Firebase configuration files
+.firebaserc
+firebase.json
